@@ -1,0 +1,104 @@
+.h2{
+	padding-top: 25px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 12.5px;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.ul {
+	list-style-type: none
+	margin-left:10px;
+}
+
+.wrap {
+	-webkit-flex-wrap: wrap;
+  	flex-wrap: wrap;
+}
+
+.wrap li {
+	background: tomato;
+}
+.flex-item {
+	padding: 5px;
+	width: 100px;
+	height: 100px;
+	margin: 15px;
+	line-height: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+
+}
+
+
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+
+li a:hover {
+	background-color: gold;
+}
+.popup{
+	padding: 5px;
+	width: 120px;
+	height: 120px;
+	margin: 15px;
+	line-height: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	-webkit-box-shadow: 10px 0px 42px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 0px 42px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 0px 42px 0px rgba(0,0,0,0.75);
+}
